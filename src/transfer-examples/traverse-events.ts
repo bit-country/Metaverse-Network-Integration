@@ -14,12 +14,10 @@ async function main() {
       // Extract the phase, event and the event types
       const { event, phase } = record;
       const types = event.typeDef;
-
       // Show what we are busy with
       console.log(
         `\t${event.section}:${event.method}:: (phase=${phase.toString()})`
       );
-      console.log(`\t\t${event.meta.documentation.toString()}`);
 
       // Loop through each of the parameters, displaying the type and data
       event.data.forEach((data, index) => {
