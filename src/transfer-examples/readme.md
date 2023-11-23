@@ -18,5 +18,5 @@ const extrinsic = api.tx.balances.transfer(dest, amount);
 To run:
 
 ```bash
-npx ts-node src/transfer-examples/network-token-transfer.ts
+npx ts-node src/transfer-examples/native-token-transfer.ts
 ```
