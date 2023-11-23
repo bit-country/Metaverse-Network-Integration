@@ -3,7 +3,7 @@
 Two modules allow transferring tokens in Metaverse.Network Pionner network:
 `currencies` and `balances`.
 
-All tokens supported by Metaverse.Network runtime are native tokens and can be transferred using `currencies` module. NEER is a network token and it supports transfers using `balances` module.
+All tokens supported by Metaverse.Network runtime are native tokens and can be transferred using `currencies` module. NUUM( or our canary network NEER) is a network token and it supports transfers using `balances` module.
 
 ### Transferring Network token (NEER)
 
