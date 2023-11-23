@@ -11,7 +11,7 @@ const networkTokenTransferWithStatus = async () => {
 
   const signer = await getSigner();
 
-  // transfer 1 NEER to `dest`
+  // transfer 1 NUUM to `dest`
   const dest = "WWcErrHi2JHpPVVWe7uVq2a8Wrn6NMMTz31z9So5GWYhqWVRi";
   const amount = 1 * 10 ** symbolsDecimals[NETWORK_TOKEN_SYMBOL];
 
