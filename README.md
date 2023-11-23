@@ -1,6 +1,5 @@
 # Metaverse.Network Integration examples
 
-![](https://avatars.githubusercontent.com/u/70461516?s=200&v=4)
 
 The project contains some examples of how to integrate with Metaverse.Network
 
