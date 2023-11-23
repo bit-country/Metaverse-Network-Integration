@@ -1,11 +1,12 @@
 # Token Transfers & Subscription to Transfer Events
 
-Two modules allow transferring tokens in Metaverse.Network Pionner network:
+Two modules allow transferring tokens in Metaverse.Network Continuum (or Pionner) network:
 `currencies` and `balances`.
 
-All tokens supported by Metaverse.Network runtime are native tokens and can be transferred using `currencies` module. NUUM( or our canary network NEER) is a network token and it supports transfers using `balances` module.
+For NUUM( or our canary network NEER), since it is a network token and it supports transfers using either `balances` module or `currencies`module.
+And all other tokens supported by Metaverse.Network runtime are native tokens and can only be transferred using `currencies` module. 
 
-### Transferring Network token (NEER)
+### Transferring Network token NUUM (or NEER)
 
 ```typescript
 const dest = "<DESTINATION_ADDRESSS>";
